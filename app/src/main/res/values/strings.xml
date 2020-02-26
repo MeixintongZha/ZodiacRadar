@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GeoPoints Example</string>
+    <string name="title_activity_users">Map</string>
+    <color name="Black">#000000</color>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">EaDTJvPpmExSTMpUBeZxggWqG7TG7RA99kCwnV0O</string>
+    <string name="back4app_client_key">0n5oF20lZhUmTMzOn1Ki63bAYHK8KxomwXSpnYsa</string>
+    <string name="title_activity_stores">Map</string>
+</resources>
