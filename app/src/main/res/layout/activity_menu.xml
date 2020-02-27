@@ -1,16 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.thay.geopointsexample.MenuActivity">
 
+    <ImageButton
+        android:id="@+id/aquarius"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/roundbutton"
+        android:text="Button"
+        android:src="@drawable/aries"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/scorpio"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/roundbutton"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/leo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/roundbutton"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/capricorn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/roundbutton"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/libra"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/roundbutton"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/cancer"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/roundbutton"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="495dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="377dp"
+        android:layout_height="126dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/logout_button"
@@ -27,28 +98,88 @@
             android:id="@+id/button_users_activity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
             android:layout_marginTop="24dp"
             android:background="#0000bf"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
             android:text="Users Activity"
-            android:layout_gravity="center_vertical|center_horizontal"
             android:textColor="@android:color/white"
 
             />
 
-        <Button
-            android:id="@+id/button_stores_activity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
-            android:background="#4B8A08"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:text="Stores Activity"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:textColor="@android:color/white"
-
-            />
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/aries"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/aries"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/sagittarius"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/aries"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/pisces"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/aries"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/vrigo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/aries"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/gemini"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/aries"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/taurus"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/roundbutton"
+        android:src="@drawable/taurus"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </android.support.constraint.ConstraintLayout>
