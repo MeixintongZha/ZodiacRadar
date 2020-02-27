@@ -55,7 +55,6 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".MenuUsersActivity" />
-        <activity android:name=".MenuStoresActivity" />
     </application>
 
 </manifest>

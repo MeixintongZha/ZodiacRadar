@@ -35,23 +35,6 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        final Button button_stores_activity = findViewById(R.id.button_stores_activity);
-        button_stores_activity.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                final ProgressDialog dlg = new ProgressDialog(MenuActivity.this);
-                dlg.setTitle("Please, wait a moment.");
-                dlg.setMessage("Opening Menu...");
-                dlg.show();
-
-                Intent intent = new Intent(MenuActivity.this, MenuStoresActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(intent);
-
-
-            }
-        });
 
         final Button logout_button = findViewById(R.id.logout_button);
         logout_button.setOnClickListener(new View.OnClickListener() {
