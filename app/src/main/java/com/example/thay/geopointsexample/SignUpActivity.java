@@ -21,6 +21,7 @@ public class SignUpActivity extends AppCompatActivity {
     private EditText usernameView;
     private EditText passwordView;
     private EditText passwordAgainView;
+    private EditText dateView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,7 @@ public class SignUpActivity extends AppCompatActivity {
 
         usernameView = (EditText) findViewById(R.id.username);
         passwordView = (EditText) findViewById(R.id.password);
+        dateView = (EditText) findViewById(R.id.DoB_button);
         passwordAgainView = (EditText) findViewById(R.id.passwordAgain);
 
         final Button signup_button = findViewById(R.id.signup_button);
@@ -98,6 +100,7 @@ public class SignUpActivity extends AppCompatActivity {
                 ParseUser user = new ParseUser();
                 user.setUsername(usernameView.getText().toString());
                 user.setPassword(passwordView.getText().toString());
+                user.put("DoB", dateView.getText().toString());
                 user.signUpInBackground(new SignUpCallback() {
                     @Override
                     public void done(ParseException e) {
