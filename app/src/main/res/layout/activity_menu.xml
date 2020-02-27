@@ -13,7 +13,7 @@
         android:layout_marginTop="560dp"
         android:background="@drawable/roundbutton"
         android:text="Button"
-        android:src="@drawable/aries"
+        android:src="@drawable/aquarius"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -24,6 +24,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="440dp"
         android:background="@drawable/roundbutton"
+        android:src="@drawable/scorpio"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +36,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="320dp"
         android:background="@drawable/roundbutton"
+        android:src="@drawable/leo"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,6 +49,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="560dp"
         android:background="@drawable/roundbutton"
+        android:src="@drawable/capricorn"
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,6 +61,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="440dp"
         android:background="@drawable/roundbutton"
+        android:src="@drawable/libra"
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -69,6 +73,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="320dp"
         android:background="@drawable/roundbutton"
+        android:src="@drawable/cancer"
         android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -128,7 +133,7 @@
         android:layout_marginTop="440dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/roundbutton"
-        android:src="@drawable/aries"
+        android:src="@drawable/sagittarius"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -140,7 +145,7 @@
         android:layout_marginTop="560dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/roundbutton"
-        android:src="@drawable/aries"
+        android:src="@drawable/pisces"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -152,7 +157,7 @@
         android:layout_marginTop="320dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/roundbutton"
-        android:src="@drawable/aries"
+        android:src="@drawable/virgo"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -164,7 +169,7 @@
         android:layout_marginTop="200dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/roundbutton"
-        android:src="@drawable/aries"
+        android:src="@drawable/gemini"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
