@@ -67,12 +67,28 @@
         android:maxLines="1"
         android:singleLine="true" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:textColor="@color/Black"
+        tools:ignore="DuplicateIds" />
+
+    <EditText
+        android:id="@+id/DoB_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:maxLines="1"
+        android:singleLine="true" />
+
     <Button
         android:id="@+id/signup_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="12sp"
         android:layout_gravity="center"
         android:text="Sign Up"
-        android:textColor="@color/Black" />
+        android:textColor="@color/Black"
+        android:textSize="12sp" />
 </LinearLayout>
