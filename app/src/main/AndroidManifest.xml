@@ -55,7 +55,65 @@
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MenuActivity" />
         <activity android:name=".MenuUsersActivity" />
-        <activity android:name=".MenuStoresActivity" />
+        <activity android:name=".horoscope.AquariusActivity"
+            android:label = "Aquarius"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.AriesActivity"
+            android:label = "Aries"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.CancerActivity"
+            android:label = "Cancer"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.CapricornActivity"
+            android:label = "Capricorn"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.GeminiActivity"
+            android:label = "Gemini"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.LeoActivity"
+            android:label = "Leo"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.LibraActivity"
+            android:label = "Libra"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.PiscesActivity"
+            android:label = "Pisces"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.SagittariusActivity"
+            android:label = "Sagittarius"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.ScorpioActivity"
+            android:label = "Scorpio"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.TaurusActivity"
+            android:label = "Taurus"
+            android:parentActivityName=".MenuActivity">
+        </activity>
+
+        <activity android:name=".horoscope.VirgoActivity"
+            android:label = "Virgo"
+            android:parentActivityName=".MenuActivity">
+        </activity>
     </application>
 
 </manifest>

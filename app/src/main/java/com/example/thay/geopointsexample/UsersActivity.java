@@ -203,6 +203,7 @@ public class UsersActivity extends FragmentActivity implements OnMapReadyCallbac
 
                     // avoiding null pointer
                     ParseUser closestUser = ParseUser.getCurrentUser();
+                    String zodiac = closestUser.getString("Zodiac");
 
                     // set the closestUser to the one that isn't the current user
                     for(int i = 0; i < nearUsers.size(); i++) {
@@ -213,7 +214,7 @@ public class UsersActivity extends FragmentActivity implements OnMapReadyCallbac
 
                     // finding and displaying the distance between the current user and the closest user to him
                     double distance = getCurrentUserLocation().distanceInKilometersTo(closestUser.getParseGeoPoint("Location"));
-                    alertDisplayer("We found the closest user from you!", "It's " + closestUser.getUsername() + ". \nYou are " + Math.round (distance * 100.0) / 100.0  + " km from this user.");
+                    alertDisplayer("We found the closest user from you!", "It's " + closestUser.getUsername() + ". \n This user is a "+ zodiac);
 
                     // showing current user in map
                     showCurrentUserInMap(mMap);
