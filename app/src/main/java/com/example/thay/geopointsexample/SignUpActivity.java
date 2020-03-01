@@ -141,7 +141,7 @@ public class SignUpActivity extends AppCompatActivity {
                     Zshow = "Pisces";
                 }
                 else {
-                    alertDisplayer("Wrong DoB", "Please enter valid date of birth mm/dd");
+                    alertDisplayer("Wrong DoB", "Please enter valid date of birth mmdd");
                 }
                 user.put("Zodiac", Zshow);
                 user.signUpInBackground(new SignUpCallback() {
@@ -149,7 +149,7 @@ public class SignUpActivity extends AppCompatActivity {
                     public void done(ParseException e) {
                         if (e == null) {
                             dlg.dismiss();
-                            alertDisplayer("Sucessful Login","Welcome " + usernameView.getText().toString() + "!");
+                            alertDisplayer("Successful Login","Welcome " + usernameView.getText().toString() + "!");
 
                         } else {
                             dlg.dismiss();
