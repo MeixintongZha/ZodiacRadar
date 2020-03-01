@@ -101,6 +101,49 @@ public class SignUpActivity extends AppCompatActivity {
                 user.setUsername(usernameView.getText().toString());
                 user.setPassword(passwordView.getText().toString());
                 user.put("DoB", dateView.getText().toString());
+                String Zodiac=dateView.getText().toString();
+                long sign = Integer.parseInt(Zodiac);
+                String Zshow="Zodiac Sign";
+                if(0321<=sign && sign<=419){
+                    Zshow = "Aries";
+                }
+                else if(420<=sign && sign<=520){
+                    Zshow = "Taurus";
+                }
+                else if(521<=sign && sign<=620){
+                    Zshow = "Gemini";
+                }
+                else if(621<=sign && sign<=722){
+                    Zshow = "Cancer";
+                }
+                else if(723<=sign && sign<=822){
+                    Zshow = "Leo";
+                }
+                else if(823<=sign && sign<=922){
+                    Zshow = "Virgo";
+                }
+                else if(923<=sign && sign<=1022){
+                    Zshow = "Libra";
+                }
+                else if(1023<=sign && sign<=1121){
+                    Zshow = "Scorpio";
+                }
+                else if(1122<=sign && sign<=1221){
+                    Zshow = "Sagittarius";
+                }
+                else if(1222<=sign && sign<=119){
+                    Zshow = "Capricorn";
+                }
+                else if(120<=sign && sign<=218){
+                    Zshow = "Aquarius";
+                }
+                else if(219<=sign && sign<=320){
+                    Zshow = "Pisces";
+                }
+                else {
+                    alertDisplayer("Wrong DoB", "Please enter valid date of birth mm/dd");
+                }
+                user.put("Zodiac", Zshow);
                 user.signUpInBackground(new SignUpCallback() {
                     @Override
                     public void done(ParseException e) {
