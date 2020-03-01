@@ -35,6 +35,24 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
         Parse.initialize(this);
         final Button button_users_activity = findViewById(R.id.button_users_activity);
+        ParseUser User = ParseUser.getCurrentUser();
+        String Zodiac = User.get("Zodiac").toString();
+        AlertDialog.Builder builder = new AlertDialog.Builder(MenuActivity.this)
+                .setTitle("Greeting")
+                .setMessage("Hello, " + Zodiac)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+//                        Intent intent = new Intent(MenuActivity.this, LoginActivity.class);
+//                        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+//                        startActivity(intent);
+                    }
+                });
+        AlertDialog ok = builder.create();
+        ok.show();
+
+
 
         button_users_activity.setOnClickListener(new View.OnClickListener() {
             @Override
