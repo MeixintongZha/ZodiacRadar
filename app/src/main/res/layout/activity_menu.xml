@@ -6,82 +6,68 @@
     android:layout_height="match_parent"
     tools:context="com.example.thay.geopointsexample.MenuActivity">
 
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="53dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="220dp"
-        android:fontFamily="cursive"
-        android:text="Aries"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView46"
-        android:layout_width="53dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="308dp"
-        android:layout_marginTop="372dp"
-        android:fontFamily="cursive"
-        android:text="Virgo"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="71dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="372dp"
-        android:fontFamily="cursive"
-        android:text="Cancer"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView45"
-        android:layout_width="53dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="188dp"
-        android:layout_marginTop="372dp"
-        android:fontFamily="cursive"
-        android:text="Leo"
-        android:textColor="#020202"
-        android:textSize="24sp"
+    <ImageButton
+        android:id="@+id/aquarius"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="launchAquariusActivity"
+        android:src="@drawable/aquarius"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/vrigo"
+        android:id="@+id/scorpio"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="272dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="360dp"
         android:background="@drawable/roundbutton"
-        android:onClick="launchVirgoActivity"
-        android:src="@drawable/virgo"
+        android:onClick="launchScorpioActivity"
+        android:src="@drawable/scorpio"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/leo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginTop="240dp"
         android:background="@drawable/roundbutton"
         android:onClick="launchLeoActivity"
         android:src="@drawable/leo"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/capricorn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="launchCapricornActivity"
+        android:src="@drawable/capricorn"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/libra"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="launchLibraActivity"
+        android:src="@drawable/libra"
+        android:text="Button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,103 +75,12 @@
         android:id="@+id/cancer"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="272dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="240dp"
         android:background="@drawable/roundbutton"
         android:onClick="launchCancerActivity"
         android:src="@drawable/cancer"
         android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView47"
-        android:layout_width="76dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="524dp"
-        android:fontFamily="cursive"
-        android:text="Scorpio"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView48"
-        android:layout_width="104dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="288dp"
-        android:layout_marginTop="524dp"
-        android:fontFamily="cursive"
-        android:text="Sagittarius"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView49"
-        android:layout_width="81dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="680dp"
-        android:fontFamily="cursive"
-        android:text="Aquarius"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="53dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="308dp"
-        android:layout_marginTop="676dp"
-        android:fontFamily="cursive"
-        android:text="Pisces"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView44"
-        android:layout_width="93dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="676dp"
-        android:fontFamily="cursive"
-        android:text="Capricorn"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="73dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="176dp"
-        android:layout_marginTop="220dp"
-        android:fontFamily="cursive"
-        android:text="Taurus"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="70dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="300dp"
-        android:layout_marginTop="220dp"
-        android:fontFamily="cursive"
-        android:text="Gemini"
-        android:textColor="#020202"
-        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -238,11 +133,24 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
+        android:id="@+id/sagittarius"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/roundbutton"
+        android:onClick="launchSagittariusActivity"
+        android:src="@drawable/sagittarius"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
         android:id="@+id/pisces"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="580dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="30dp"
         android:background="@drawable/roundbutton"
         android:onClick="launchPiscesActivity"
         android:src="@drawable/pisces"
@@ -251,83 +159,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/capricorn"
+        android:id="@+id/vrigo"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="30dp"
         android:background="@drawable/roundbutton"
-        android:onClick="launchCapricornActivity"
-        android:src="@drawable/capricorn"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/aquarius"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="580dp"
-        android:background="@drawable/roundbutton"
-        android:onClick="launchAquariusActivity"
-        android:src="@drawable/aquarius"
+        android:onClick="launchVirgoActivity"
+        android:src="@drawable/virgo"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/sagittarius"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="424dp"
-        android:layout_marginEnd="28dp"
-        android:background="@drawable/roundbutton"
-        android:onClick="launchSagittariusActivity"
-        android:src="@drawable/sagittarius"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="53dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="524dp"
-        android:fontFamily="cursive"
-        android:text="Libra"
-        android:textColor="#020202"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/scorpio"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="424dp"
-        android:background="@drawable/roundbutton"
-        android:onClick="launchScorpioActivity"
-        android:src="@drawable/scorpio"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageButton
-        android:id="@+id/libra"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="424dp"
-        android:background="@drawable/roundbutton"
-        android:onClick="launchLibraActivity"
-        android:src="@drawable/libra"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
