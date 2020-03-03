@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FAF3BA">
 
 
     <TextView
@@ -16,7 +16,7 @@
         android:fontFamily="cursive"
         android:text="Type: Air"
         android:textAlignment="center"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
         android:fontFamily="casual"
         android:text="Expressive and quick-witted, Gemini represents two different personalities in one and you will never be sure which one you will face. They are sociable, communicative and ready for fun, with a tendency to suddenly get serious, thoughtful and restless."
         android:textAlignment="center"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
         android:layout_marginTop="44dp"
         android:fontFamily="cursive"
         android:text="Gemini"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,7 +58,7 @@
         android:layout_marginTop="80dp"
         android:fontFamily="cursive"
         android:text="May 21st - June 20th"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -70,7 +70,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="468dp"
         android:text="Gentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,7 +81,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="528dp"
         android:text="Nervous, inconsistent, indecisive"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,7 +93,7 @@
         android:layout_marginTop="528dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +106,7 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="580dp"
         android:text="Music, books, magazines, chats with nearly anyone, short trips around the town"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -117,7 +117,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="640dp"
         android:text="Being alone, being confined, repetition and routine"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -128,7 +128,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="640dp"
         android:text="Dislikes:"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,7 +141,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="580dp"
         android:text="Likes:"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -154,7 +154,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="468dp"
         android:text="Strength:"
-        android:textColor="#C165C8"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"

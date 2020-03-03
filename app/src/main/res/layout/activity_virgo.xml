@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#EEFFEC">
 
     <TextView
         android:id="@+id/textView34"
@@ -15,7 +15,7 @@
         android:fontFamily="cursive"
         android:text="Type: Earth"
         android:textAlignment="center"
-        android:textColor="#217325"
+        android:textColor="#000000"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:fontFamily="casual"
         android:text="Virgos are always paying attention to the smallest details and their deep sense of humanity makes them one of the most careful signs of the zodiac. Their methodical approach to life ensures that nothing is left to chance, and although they are often tender, their heart might be closed for the outer world. "
         android:textAlignment="center"
-        android:textColor="#217325"
+        android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +44,7 @@
         android:layout_marginTop="36dp"
         android:fontFamily="cursive"
         android:text="Virgo"
-        android:textColor="#217325"
+        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -57,7 +57,7 @@
         android:layout_marginTop="80dp"
         android:fontFamily="cursive"
         android:text="August 23rd - September 22nd"
-        android:textColor="#217325"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -69,7 +69,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="680dp"
         android:text="Dislikes:"
-        android:textColor="#217325"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,7 +82,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="680dp"
         android:text="Rudeness, asking for help, taking center stage"
-        android:textColor="#217325"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -93,7 +93,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="528dp"
         android:text="Strength:"
-        android:textColor="#217325"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,7 +107,7 @@
         android:layout_marginTop="576dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#217325"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,7 +120,7 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="628dp"
         android:text="Likes:"
-        android:textColor="#217325"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -133,7 +133,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="528dp"
         android:text="Loyal, analytical, kind, hardworking, practical"
-        android:textColor="#217325"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -144,7 +144,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="576dp"
         android:text="Shyness, worry, overly critical of self and others, all work and no play"
-        android:textColor="#217325"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -155,7 +155,7 @@
         android:layout_marginStart="72dp"
         android:layout_marginTop="628dp"
         android:text=" Animals, healthy food, books, nature, cleanliness"
-        android:textColor="#217325"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFCE98">
 
     <TextView
         android:id="@+id/textView6"
@@ -15,7 +15,7 @@
         android:fontFamily="casual"
         android:text="Curious and energetic, Sagittarius is one of the biggest travelers among all zodiac signs. Their open mind and philosophical view motivates them to wander around the world in search of the meaning of life."
         android:textAlignment="center"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,7 +28,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="652dp"
         android:text="Clingy people, being constrained, off-the-wall theories, details"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +39,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="484dp"
         android:text="Strength:"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +52,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="600dp"
         android:text="Likes:"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,7 +66,7 @@
         android:layout_marginTop="540dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +79,7 @@
         android:layout_marginStart="88dp"
         android:layout_marginTop="592dp"
         android:text="Freedom, travel, philosophy, being outdoors"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -90,7 +90,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginTop="484dp"
         android:text="Generous, idealistic, great sense of humor"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,7 +101,7 @@
         android:layout_marginStart="4dp"
         android:layout_marginTop="656dp"
         android:text="Dislikes:"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,7 +114,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="540dp"
         android:text="Promises more than can deliver, very impatient"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -126,7 +126,7 @@
         android:layout_marginTop="44dp"
         android:fontFamily="cursive"
         android:text="Sagittarius"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -139,7 +139,7 @@
         android:layout_marginTop="84dp"
         android:fontFamily="cursive"
         android:text="November 22 - December 21st"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -153,7 +153,7 @@
         android:fontFamily="cursive"
         android:text="Type: Fire"
         android:textAlignment="center"
-        android:textColor="#EC8C00"
+        android:textColor="#000000"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"

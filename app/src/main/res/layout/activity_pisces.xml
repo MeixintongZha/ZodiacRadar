@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#A6D1FF">
 
     <TextView
         android:id="@+id/textView25"
@@ -15,7 +15,7 @@
         android:fontFamily="cursive"
         android:text="Type: Water"
         android:textAlignment="center"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +29,7 @@
         android:layout_marginTop="44dp"
         android:fontFamily="cursive"
         android:text="Pisces"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,7 +42,7 @@
         android:layout_marginTop="84dp"
         android:fontFamily="cursive"
         android:text="February 19th - March 20th"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -54,7 +54,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="508dp"
         android:text="Compassionate, artistic, intuitive, gentle, wise, musical"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,7 +65,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="632dp"
         android:text="Likes:"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="684dp"
         android:text="Dislikes:"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,7 +92,7 @@
         android:layout_marginTop="568dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,7 +105,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="508dp"
         android:text="Strength:"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,7 +118,7 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="632dp"
         android:text="Being alone, sleeping, music, romance, visual media, swimming, spiritual themes"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -129,7 +129,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="568dp"
         android:text="Fearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -140,7 +140,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="684dp"
         android:text="Know-it-all, being criticized, the past coming back to haunt, cruelty of any kind"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -153,7 +153,7 @@
         android:fontFamily="casual"
         android:text="Pisces are very friendly, so they often find themselves in a company of very different people. Pisces are selfless, they are always willing to help others, without hoping to get anything back. Pisces is a Water sign and as such this zodiac sign is characterized by empathy and expressed emotional capacity."
         android:textAlignment="center"
-        android:textColor="#0B7FDC"
+        android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"

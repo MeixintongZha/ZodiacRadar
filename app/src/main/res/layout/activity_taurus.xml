@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#D8B7AA">
 
 
     <TextView
@@ -16,7 +16,7 @@
         android:fontFamily="cursive"
         android:text="Type: Earth"
         android:textAlignment="center"
-        android:textColor="#650101"
+        android:textColor="#000000"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
         android:fontFamily="casual"
         android:text="Practical and well-grounded, Taurus is the sign that harvests the fruits of labor. They feel the need to always be surrounded by love and beauty, turned to the material world, hedonism, and physical pleasures. People born with their Sun in Taurus are sensual and tactile, considering touch and taste the most important of all senses. "
         android:textAlignment="center"
-        android:textColor="#650101"
+        android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="cursive"
         android:text="Taurus"
-        android:textColor="#650101"
+        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -58,7 +58,7 @@
         android:layout_marginTop="84dp"
         android:fontFamily="cursive"
         android:text="April 20th - May 20th"
-        android:textColor="#650101"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -70,7 +70,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="608dp"
         android:text="Gardening, cooking, music, romance, high quality clothes, working with hands"
-        android:textColor="#650101"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,7 +81,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="676dp"
         android:text="Sudden changes, complications, insecurity of any kind, synthetic fabrics"
-        android:textColor="#650101"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -92,7 +92,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="676dp"
         android:text="Dislikes:"
-        android:textColor="#650101"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,7 +105,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="488dp"
         android:text="Reliable, patient, practical, devoted, responsible, stable"
-        android:textColor="#650101"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -117,7 +117,7 @@
         android:layout_marginTop="552dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#650101"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -130,7 +130,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="488dp"
         android:text="Strength:"
-        android:textColor="#650101"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -143,7 +143,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="608dp"
         android:text="Likes:"
-        android:textColor="#650101"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -156,7 +156,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="552dp"
         android:text="Stubborn, possessive, uncompromising"
-        android:textColor="#650101"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 

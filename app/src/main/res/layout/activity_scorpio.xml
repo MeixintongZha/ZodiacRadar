@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#7CACFF">
 
     <TextView
         android:id="@+id/textView30"
@@ -15,7 +15,7 @@
         android:fontFamily="cursive"
         android:text="Type: Water"
         android:textAlignment="center"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:fontFamily="casual"
         android:text="Scorpio-born are passionate and assertive people. They are determined and decisive, and will research until they find out the truth. Scorpio is a great leader, always aware of the situation and also features prominently in resourcefulness."
         android:textAlignment="center"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="484dp"
         android:text="Resourceful, brave, passionate, stubborn, a true friend"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,7 +54,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="484dp"
         android:text="Strength:"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +67,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="544dp"
         android:text="Distrusting, jealous, secretive, violent"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,7 +78,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="604dp"
         android:text=" Truth, facts, being right, longtime friends, teasing, a grand passion"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,7 +89,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="604dp"
         android:text="Likes:"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,7 +102,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="668dp"
         android:text="Dishonesty, revealing secrets, passive people"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -113,7 +113,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="668dp"
         android:text="Dislikes:"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,7 +127,7 @@
         android:layout_marginTop="544dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,7 +141,7 @@
         android:layout_marginTop="36dp"
         android:fontFamily="cursive"
         android:text="Scorpio"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -154,7 +154,7 @@
         android:layout_marginTop="76dp"
         android:fontFamily="cursive"
         android:text="October 23rd - November 21st"
-        android:textColor="#041DA6"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#7A0930"
+    android:backgroundTint="#54FF0000">
 
 
     <TextView
@@ -16,7 +17,7 @@
         android:fontFamily="cursive"
         android:text="Type: Fire"
         android:textAlignment="center"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +31,7 @@
         android:layout_marginTop="72dp"
         android:fontFamily="cursive"
         android:text="July 23rd - August 22nd"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -43,7 +44,7 @@
         android:layout_marginTop="32dp"
         android:fontFamily="cursive"
         android:text="Leo"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -55,7 +56,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginTop="604dp"
         android:text="Theater, taking holidays, being admired, expensive things, bright colors"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -66,7 +67,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="604dp"
         android:text="Likes:"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +81,7 @@
         android:layout_marginTop="548dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -93,7 +94,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="660dp"
         android:text="Dislikes:"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +107,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginTop="488dp"
         android:text="Creative, passionate, generous, warm-hearted, cheerful, humorous"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -117,7 +118,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="488dp"
         android:text="Strength:"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -130,7 +131,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="544dp"
         android:text="Arrogant, stubborn, self-centered, lazy, inflexible"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -141,7 +142,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="660dp"
         android:text="Being ignored, facing difficult reality, not being treated like a king or queen"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -154,7 +155,7 @@
         android:fontFamily="casual"
         android:text="People born under the sign of Leo are natural born leaders. They are dramatic, creative, self-confident, dominant and extremely difficult to resist, able to achieve anything they want to in any area of life they commit to. There is a specific strength to a Leo and their king of the jungle status. Leo often has many friends for they are generous and loyal."
         android:textAlignment="center"
-        android:textColor="#CD205B"
+        android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"

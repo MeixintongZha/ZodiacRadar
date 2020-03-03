@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="#AB60EBFD">
 
     <TextView
         android:id="@+id/textView6"
@@ -14,7 +14,7 @@
         android:fontFamily="casual"
         android:text="Deeply intuitive and sentimental, Cancer can be one of the most challenging zodiac signs to get to know. They are very emotional and sensitive, and care deeply about matters of the family and their home. Cancer is sympathetic and attached to people they keep close. Those born with their Sun in Cancer are very loyal and able to empathize with other people's pain and suffering."
         android:textAlignment="center"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,7 @@
         android:layout_marginTop="32dp"
         android:fontFamily="cursive"
         android:text="Cancer"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -42,7 +42,7 @@
         android:layout_marginTop="72dp"
         android:fontFamily="cursive"
         android:text="June 21st - July 22nd"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -56,7 +56,7 @@
         android:fontFamily="cursive"
         android:text="Type: Water"
         android:textAlignment="center"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -68,7 +68,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="512dp"
         android:text="Moody, pessimistic, suspicious, manipulative, insecure"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -79,7 +79,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="644dp"
         android:text=" Strangers, any criticism of Mom, revealing of personal life"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -91,7 +91,7 @@
         android:layout_marginTop="512dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,7 +104,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="576dp"
         android:text="Likes:"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -117,7 +117,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="452dp"
         android:text="Strengths:"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -130,7 +130,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="644dp"
         android:text="Dislikes:"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -143,7 +143,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="576dp"
         android:text="Art, home-based hobbies, relaxing near or in water, helping loved ones"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -154,7 +154,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="452dp"
         android:text="Tenacious, highly imaginative, loyal, emotional, sympathetic, persuasive"
-        android:textColor="#178C97"
+        android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 

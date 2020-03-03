@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FDDDFF">
 
 
     <TextView
@@ -16,7 +16,7 @@
         android:fontFamily="casual"
         android:text="People born under the sign of Libra are peaceful, fair, and they hate being alone. Partnership is very important for them, as their mirror and someone giving them the ability to be the mirror themselves. These individuals are fascinated by balance and symmetry, they are in a constant chase for justice and equality."
         android:textAlignment="center"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:layout_marginTop="548dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,7 +43,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="496dp"
         android:text="Strength:"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +56,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="664dp"
         android:text="Harmony, gentleness, sharing with others, the outdoors"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -67,7 +67,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="496dp"
         android:text="Cooperative,diplomatic, gracious, fair-minded, social"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -78,7 +78,7 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="600dp"
         android:text="Harmony, gentleness, sharing with others, the outdoors"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,7 +89,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="548dp"
         android:text="Indecisive, avoids confrontations, will carry a grudge, self-pity"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -100,7 +100,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="664dp"
         android:text="Dislikes:"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,7 +113,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="600dp"
         android:text="Likes:"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -136,7 +136,7 @@
         android:fontFamily="cursive"
         android:text="Type: Air"
         android:textAlignment="center"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -150,7 +150,7 @@
         android:layout_marginTop="32dp"
         android:fontFamily="cursive"
         android:text="Libra"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -163,7 +163,7 @@
         android:layout_marginTop="76dp"
         android:fontFamily="cursive"
         android:text="September 23rd - October 22nd"
-        android:textColor="#D189BF"
+        android:textColor="#050505"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
