@@ -102,9 +102,12 @@ public class SignUpActivity extends AppCompatActivity {
                 user.setPassword(passwordView.getText().toString());
                 user.put("DoB", dateView.getText().toString());
                 String Zodiac=dateView.getText().toString();
+                if (Zodiac.charAt(0)==0) {
+                    Zodiac.substring(1);
+                }
                 long sign = Integer.parseInt(Zodiac);
                 String Zshow="Zodiac Sign";
-                if(0321<=sign && sign<=419){
+                if(321<=sign && sign<=419){
                     Zshow = "Aries";
                 }
                 else if(420<=sign && sign<=520){
@@ -131,14 +134,17 @@ public class SignUpActivity extends AppCompatActivity {
                 else if(1122<=sign && sign<=1221){
                     Zshow = "Sagittarius";
                 }
-                else if(1222<=sign && sign<=119){
-                    Zshow = "Capricorn";
-                }
                 else if(120<=sign && sign<=218){
                     Zshow = "Aquarius";
                 }
                 else if(219<=sign && sign<=320){
                     Zshow = "Pisces";
+                }
+                else if(1222<=sign){
+                    Zshow = "Capricorn";
+                }
+                else if(sign<=119){
+                    Zshow = "Capricorn";
                 }
                 else {
                     alertDisplayer("Wrong DoB", "Please enter valid date of birth mmdd");

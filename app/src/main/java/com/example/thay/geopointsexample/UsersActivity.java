@@ -32,6 +32,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 import com.parse.FindCallback;
+import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseGeoPoint;
 import com.parse.ParseObject;
@@ -39,6 +40,8 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 
 import java.util.List;
+
+import bolts.Task;
 
 public class UsersActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -118,13 +121,14 @@ public class UsersActivity extends FragmentActivity implements OnMapReadyCallbac
 
     }
 
+
     private void saveCurrentUserLocation() {
 
         if(ActivityCompat.checkSelfPermission(UsersActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(UsersActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED){
             ActivityCompat.requestPermissions(UsersActivity.this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION);
         }
         else {
-            Location location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+            Location location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
             if(location != null){
                 ParseGeoPoint currentUserLocation = new ParseGeoPoint(location.getLatitude(), location.getLongitude());
@@ -176,6 +180,7 @@ public class UsersActivity extends FragmentActivity implements OnMapReadyCallbac
 
 
     }
+
 
     private void showCurrentUserInMap(final GoogleMap googleMap){
 //        LatLng sydney = new LatLng(-34, 151);
