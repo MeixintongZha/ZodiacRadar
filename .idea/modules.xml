@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GitHub-ZodiacRadar.iml" filepath="$PROJECT_DIR$/GitHub-ZodiacRadar.iml" group="ZodiacRadar" />
       <module fileurl="file://$PROJECT_DIR$/ZodiacRadar.iml" filepath="$PROJECT_DIR$/ZodiacRadar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/ZodiacRadar-app.iml" filepath="$PROJECT_DIR$/app/ZodiacRadar-app.iml" group="ZodiacRadar/app" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
