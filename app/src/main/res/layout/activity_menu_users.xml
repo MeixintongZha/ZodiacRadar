@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#DBF9FD"
     tools:context="com.example.thay.geopointsexample.MenuUsersActivity">
-
-    <LinearLayout
-        android:layout_width="377dp"
-        android:layout_height="166dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="17dp"
-        tools:layout_editor_absoluteY="156dp">
-
-        <Button
-            android:id="@+id/button_my_location"
-            android:layout_width="211dp"
-            android:layout_height="104dp"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:layout_marginTop="24dp"
-            android:background="#0000bf"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:text="Find my location"
-            android:textColor="@android:color/white"
-
-            />
-
-    </LinearLayout>
 
     <Button
         android:id="@+id/back_button"
@@ -42,15 +21,42 @@
 
     <Button
         android:id="@+id/button_closest_user"
-        android:layout_width="220dp"
-        android:layout_height="108dp"
+        android:layout_width="209dp"
+        android:layout_height="100dp"
         android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="369dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="262dp"
         android:background="#0000bf"
+
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:text="Find closest user"
         android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="395dp" />
+    <Button
+        android:id="@+id/button_my_location"
+        android:layout_width="211dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="448dp"
+        android:background="#0000bf"
+
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Find my location"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

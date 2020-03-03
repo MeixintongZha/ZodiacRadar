@@ -12,7 +12,7 @@
         android:layout_width="208dp"
         android:layout_height="42dp"
         android:layout_marginStart="92dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="88dp"
         android:fontFamily="cursive"
         android:text="Type: Air"
         android:textAlignment="center"
@@ -23,11 +23,37 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView19"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="cursive"
+        android:text="May 21st - June 20th"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="85dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:text="Gemini"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView6"
-        android:layout_width="274dp"
-        android:layout_height="162dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="244dp"
+        android:layout_width="302dp"
+        android:layout_height="134dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="228dp"
         android:fontFamily="casual"
         android:text="Expressive and quick-witted, Gemini represents two different personalities in one and you will never be sure which one you will face. They are sociable, communicative and ready for fun, with a tendency to suddenly get serious, thoughtful and restless."
         android:textAlignment="center"
@@ -38,40 +64,38 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="85dp"
-        android:layout_height="37dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="44dp"
-        android:fontFamily="cursive"
-        android:text="Gemini"
+        android:id="@+id/textView15"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="604dp"
+        android:text="Being alone, being confined, repetition and routine"
         android:textColor="#000000"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView19"
-        android:layout_width="205dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="80dp"
-        android:fontFamily="cursive"
-        android:text="May 21st - June 20th"
+        android:id="@+id/textView14"
+        android:layout_width="255dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="532dp"
+        android:text="Music, books, magazines, chats with nearly anyone, short trips around the town"
         android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="272dp"
-        android:layout_height="44dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="468dp"
-        android:text="Gentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="432dp"
+        android:text="Strength:"
         android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -79,7 +103,7 @@
         android:layout_width="264dp"
         android:layout_height="41dp"
         android:layout_marginStart="28dp"
-        android:layout_marginTop="528dp"
+        android:layout_marginTop="492dp"
         android:text="Nervous, inconsistent, indecisive"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
@@ -90,7 +114,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="528dp"
+        android:layout_marginTop="492dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
         android:textColor="#000000"
@@ -100,38 +124,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView14"
-        android:layout_width="271dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="580dp"
-        android:text="Music, books, magazines, chats with nearly anyone, short trips around the town"
+        android:id="@+id/textView12"
+        android:layout_width="272dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="432dp"
+        android:text="Gentle, affectionate, curious, adaptable, ability to learn quickly and exchange ideas"
         android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="640dp"
-        android:text="Being alone, being confined, repetition and routine"
-        android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="640dp"
-        android:text="Dislikes:"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -139,7 +139,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="532dp"
         android:text="Likes:"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -148,12 +148,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="468dp"
-        android:text="Strength:"
+        android:layout_marginTop="604dp"
+        android:text="Dislikes:"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -164,8 +164,10 @@
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/gemini"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="154dp" />
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="123dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gemini" />
 
 </android.support.constraint.ConstraintLayout>

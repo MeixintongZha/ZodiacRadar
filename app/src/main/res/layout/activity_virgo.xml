@@ -7,26 +7,11 @@
     android:background="#EEFFEC">
 
     <TextView
-        android:id="@+id/textView34"
-        android:layout_width="208dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="116dp"
-        android:fontFamily="cursive"
-        android:text="Type: Earth"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textColorHint="#987D6A"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView6"
-        android:layout_width="319dp"
-        android:layout_height="198dp"
+        android:layout_width="314dp"
+        android:layout_height="163dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="304dp"
+        android:layout_marginTop="244dp"
         android:fontFamily="casual"
         android:text="Virgos are always paying attention to the smallest details and their deep sense of humanity makes them one of the most careful signs of the zodiac. Their methodical approach to life ensures that nothing is left to chance, and although they are often tender, their heart might be closed for the outer world. "
         android:textAlignment="center"
@@ -37,74 +22,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="69dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="36dp"
-        android:fontFamily="cursive"
-        android:text="Virgo"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="299dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="80dp"
-        android:fontFamily="cursive"
-        android:text="August 23rd - September 22nd"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="680dp"
-        android:text="Dislikes:"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView15"
         android:layout_width="264dp"
         android:layout_height="41dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="680dp"
+        android:layout_marginTop="604dp"
         android:text="Rudeness, asking for help, taking center stage"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="528dp"
-        android:text="Strength:"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="576dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="500dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
         android:textColor="#000000"
@@ -117,8 +50,8 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="628dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="552dp"
         android:text="Likes:"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -130,8 +63,8 @@
         android:id="@+id/textView12"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="528dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="452dp"
         android:text="Loyal, analytical, kind, hardworking, practical"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
@@ -141,8 +74,8 @@
         android:id="@+id/textView13"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="576dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="500dp"
         android:text="Shyness, worry, overly critical of self and others, all work and no play"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
@@ -153,18 +86,87 @@
         android:layout_width="264dp"
         android:layout_height="41dp"
         android:layout_marginStart="72dp"
-        android:layout_marginTop="628dp"
+        android:layout_marginTop="552dp"
         android:text=" Animals, healthy food, books, nature, cleanliness"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="452dp"
+        android:text="Strength:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="604dp"
+        android:text="Dislikes:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="100dp"
-        android:layout_height="94dp"
-        app:srcCompat="@drawable/virgo"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="158dp" />
+        android:layout_width="73dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/virgo" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="299dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="cursive"
+        android:text="August 23rd - September 22nd"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="69dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="cursive"
+        android:text="Virgo"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="208dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="cursive"
+        android:text="Type: Earth"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#987D6A"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

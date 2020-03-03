@@ -23,10 +23,10 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="293dp"
-        android:layout_height="150dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="288dp"
+        android:layout_width="319dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="272dp"
         android:fontFamily="casual"
         android:text="Scorpio-born are passionate and assertive people. They are determined and decisive, and will research until they find out the truth. Scorpio is a great leader, always aware of the situation and also features prominently in resourcefulness."
         android:textAlignment="center"
@@ -37,22 +37,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView15"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="484dp"
-        android:text="Resourceful, brave, passionate, stubborn, a true friend"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="616dp"
+        android:text="Dishonesty, revealing secrets, passive people"
         android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="484dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="432dp"
         android:text="Strength:"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -64,8 +64,8 @@
         android:id="@+id/textView13"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="544dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="492dp"
         android:text="Distrusting, jealous, secretive, violent"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
@@ -75,8 +75,8 @@
         android:id="@+id/textView14"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="604dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="552dp"
         android:text=" Truth, facts, being right, longtime friends, teasing, a grand passion"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
@@ -86,33 +86,9 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="604dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="552dp"
         android:text="Likes:"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="668dp"
-        android:text="Dishonesty, revealing secrets, passive people"
-        android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="668dp"
-        android:text="Dislikes:"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -123,14 +99,38 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="544dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="492dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="616dp"
+        android:text="Dislikes:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="432dp"
+        android:text="Resourceful, brave, passionate, stubborn, a true friend"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -163,8 +163,10 @@
         android:id="@+id/imageView8"
         android:layout_width="89dp"
         android:layout_height="82dp"
-        app:srcCompat="@drawable/scorpio"
-        tools:layout_editor_absoluteX="164dp"
-        tools:layout_editor_absoluteY="158dp" />
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="158dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/scorpio" />
 
 </android.support.constraint.ConstraintLayout>

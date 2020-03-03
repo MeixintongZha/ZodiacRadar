@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#F2FACE">
 
     <TextView
         android:id="@+id/textView38"
@@ -15,7 +15,7 @@
         android:fontFamily="cursive"
         android:text="Type: Air"
         android:textAlignment="center"
-        android:textColor="#AFA231"
+        android:textColor="#050505"
         android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,14 +23,14 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="293dp"
-        android:layout_height="162dp"
+        android:layout_width="294dp"
+        android:layout_height="174dp"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="304dp"
+        android:layout_marginTop="244dp"
         android:fontFamily="casual"
         android:text="Aquarius-born are shy and quiet , but on the other hand they can be eccentric and energetic. However, in both cases, they are deep thinkers and highly intellectual people who love helping others. They are able to see without prejudice, on both sides, which makes them people who can easily solve problems."
         android:textAlignment="center"
-        android:textColor="#AFA231"
+        android:textColor="#050505"
         android:textSize="14sp"
         android:typeface="serif"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +44,7 @@
         android:layout_marginTop="40dp"
         android:fontFamily="cursive"
         android:text="Aquarius"
-        android:textColor="#AFA231"
+        android:textColor="#050505"
         android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -57,7 +57,7 @@
         android:layout_marginTop="84dp"
         android:fontFamily="cursive"
         android:text="January 20th - February 18th"
-        android:textColor="#AFA231"
+        android:textColor="#050505"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -66,35 +66,57 @@
         android:id="@+id/textView15"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="668dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="604dp"
         android:text="Limitations, broken promises, being lonely, dull or boring situations"
-        android:textColor="#AFA231"
+        android:textColor="#050505"
         app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="452dp"
+        android:text="Progressive, original, independent, humanitarian"
+        android:textColor="#050505"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="568dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="504dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
-        android:textColor="#AFA231"
+        android:textColor="#050505"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView14"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="552dp"
+        android:text="Fun with friends, helping others, fighting for causes"
+        android:textColor="#050505"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="616dp"
-        android:text="Likes:"
-        android:textColor="#AFA231"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="452dp"
+        android:text="Strength:"
+        android:textColor="#050505"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,56 +126,34 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="668dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="604dp"
         android:text="Dislikes:"
-        android:textColor="#AFA231"
+        android:textColor="#050505"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="516dp"
-        android:text="Progressive, original, independent, humanitarian"
-        android:textColor="#AFA231"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView13"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="568dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="504dp"
         android:text="Runs from emotional expression, temperamental, uncompromising, aloof"
-        android:textColor="#AFA231"
+        android:textColor="#050505"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView14"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="616dp"
-        android:text="Fun with friends, helping others, fighting for causes"
-        android:textColor="#AFA231"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="516dp"
-        android:text="Strength:"
-        android:textColor="#AFA231"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="552dp"
+        android:text="Likes:"
+        android:textColor="#050505"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -161,10 +161,17 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="108dp"
-        android:layout_height="78dp"
-        app:srcCompat="@drawable/aquarius"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="162dp" />
+        android:layout_width="86dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="491dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/aquarius" />
 
 </android.support.constraint.ConstraintLayout>

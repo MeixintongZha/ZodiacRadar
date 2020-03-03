@@ -11,8 +11,8 @@
         android:id="@+id/textView32"
         android:layout_width="208dp"
         android:layout_height="42dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="124dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="92dp"
         android:fontFamily="cursive"
         android:text="Type: Earth"
         android:textAlignment="center"
@@ -22,27 +22,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="306dp"
-        android:layout_height="179dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="292dp"
-        android:fontFamily="casual"
-        android:text="Practical and well-grounded, Taurus is the sign that harvests the fruits of labor. They feel the need to always be surrounded by love and beauty, turned to the material world, hedonism, and physical pleasures. People born with their Sun in Taurus are sensual and tactile, considering touch and taste the most important of all senses. "
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="14sp"
-        android:typeface="serif"
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="79dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="116dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/taurus" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="86dp"
         android:layout_height="45dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:fontFamily="cursive"
         android:text="Taurus"
         android:textColor="#000000"
@@ -55,7 +50,7 @@
         android:layout_width="220dp"
         android:layout_height="40dp"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="cursive"
         android:text="April 20th - May 20th"
         android:textColor="#000000"
@@ -64,33 +59,73 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView14"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="608dp"
-        android:text="Gardening, cooking, music, romance, high quality clothes, working with hands"
+        android:id="@+id/textView6"
+        android:layout_width="329dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="232dp"
+        android:fontFamily="casual"
+        android:text="Practical and well-grounded, Taurus is the sign that harvests the fruits of labor. They feel the need to always be surrounded by love and beauty, turned to the material world, hedonism, and physical pleasures. People born with their Sun in Taurus are sensual and tactile, considering touch and taste the most important of all senses. "
+        android:textAlignment="center"
         android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
+        android:textSize="14sp"
+        android:typeface="serif"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="676dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="612dp"
         android:text="Sudden changes, complications, insecurity of any kind, synthetic fabrics"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="488dp"
+        android:lineSpacingExtra="18sp"
+        android:text="Weakness:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="488dp"
+        android:text="Stubborn, possessive, uncompromising"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="544dp"
+        android:text="Gardening, cooking, music, romance, high quality clothes, working with hands"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="676dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="612dp"
         android:text="Dislikes:"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -102,21 +137,20 @@
         android:id="@+id/textView12"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="488dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="424dp"
         android:text="Reliable, patient, practical, devoted, responsible, stable"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="552dp"
-        android:lineSpacingExtra="18sp"
-        android:text="Weakness:"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="544dp"
+        android:text="Likes:"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -127,45 +161,13 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="488dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="424dp"
         android:text="Strength:"
         android:textColor="#000000"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="608dp"
-        android:text="Likes:"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="552dp"
-        android:text="Stubborn, possessive, uncompromising"
-        android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="103dp"
-        android:layout_height="110dp"
-        app:srcCompat="@drawable/taurus"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="166dp" />
 
 </android.support.constraint.ConstraintLayout>

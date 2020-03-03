@@ -9,10 +9,10 @@
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="313dp"
-        android:layout_height="168dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="292dp"
+        android:layout_width="323dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="232dp"
         android:fontFamily="casual"
         android:text="People born under the sign of Libra are peaceful, fair, and they hate being alone. Partnership is very important for them, as their mirror and someone giving them the ability to be the mirror themselves. These individuals are fascinated by balance and symmetry, they are in a constant chase for justice and equality."
         android:textAlignment="center"
@@ -23,11 +23,22 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView15"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="604dp"
+        android:text="Harmony, gentleness, sharing with others, the outdoors"
+        android:textColor="#050505"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="488dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
         android:textColor="#050505"
@@ -37,46 +48,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="496dp"
-        android:text="Strength:"
-        android:textColor="#050505"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="664dp"
-        android:text="Harmony, gentleness, sharing with others, the outdoors"
-        android:textColor="#050505"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="496dp"
-        android:text="Cooperative,diplomatic, gracious, fair-minded, social"
-        android:textColor="#050505"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView14"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="540dp"
         android:text="Harmony, gentleness, sharing with others, the outdoors"
         android:textColor="#050505"
         app:layout_constraintStart_toEndOf="@+id/textView10"
@@ -86,8 +62,8 @@
         android:id="@+id/textView13"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="488dp"
         android:text="Indecisive, avoids confrontations, will carry a grudge, self-pity"
         android:textColor="#050505"
         app:layout_constraintStart_toEndOf="@+id/textView9"
@@ -97,8 +73,8 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="664dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="604dp"
         android:text="Dislikes:"
         android:textColor="#050505"
         android:textSize="18sp"
@@ -110,8 +86,8 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="600dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="540dp"
         android:text="Likes:"
         android:textColor="#050505"
         android:textSize="18sp"
@@ -119,25 +95,39 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="85dp"
-        android:layout_height="81dp"
-        app:srcCompat="@drawable/libra"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="165dp" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="436dp"
+        android:text="Cooperative,diplomatic, gracious, fair-minded, social"
+        android:textColor="#050505"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView24"
-        android:layout_width="208dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginTop="120dp"
-        android:fontFamily="cursive"
-        android:text="Type: Air"
-        android:textAlignment="center"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="436dp"
+        android:text="Strength:"
         android:textColor="#050505"
-        android:textColorHint="#987D6A"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="382dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="cursive"
+        android:text="September 23rd - October 22nd"
+        android:textColor="#050505"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -146,8 +136,8 @@
         android:id="@+id/textView7"
         android:layout_width="382dp"
         android:layout_height="55dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="cursive"
         android:text="Libra"
         android:textColor="#050505"
@@ -155,15 +145,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="72dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/libra" />
+
     <TextView
-        android:id="@+id/textView23"
-        android:layout_width="382dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="76dp"
+        android:id="@+id/textView24"
+        android:layout_width="208dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="88dp"
         android:fontFamily="cursive"
-        android:text="September 23rd - October 22nd"
+        android:text="Type: Air"
+        android:textAlignment="center"
         android:textColor="#050505"
+        android:textColorHint="#987D6A"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
