@@ -10,7 +10,7 @@
         android:id="@+id/textView25"
         android:layout_width="208dp"
         android:layout_height="42dp"
-        android:layout_marginStart="104dp"
+        android:layout_marginStart="84dp"
         android:layout_marginTop="96dp"
         android:fontFamily="cursive"
         android:text="Type: Water"
@@ -58,22 +58,35 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/textView12"
         android:layout_width="264dp"
         android:layout_height="41dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="600dp"
-        android:text="Know-it-all, being criticized, the past coming back to haunt, cruelty of any kind"
+        android:layout_marginTop="476dp"
+        android:text="Compassionate, artistic, intuitive, gentle, wise, musical"
         android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="652dp"
+        android:text="Dislikes:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="484dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="536dp"
         android:lineSpacingExtra="18sp"
         android:text="Weakness:"
         android:textColor="#000000"
@@ -86,8 +99,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="424dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="476dp"
         android:text="Strength:"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -99,8 +112,8 @@
         android:id="@+id/textView14"
         android:layout_width="264dp"
         android:layout_height="41dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="600dp"
         android:text="Being alone, sleeping, music, romance, visual media, swimming, spiritual themes"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView10"
@@ -110,19 +123,30 @@
         android:id="@+id/textView13"
         android:layout_width="269dp"
         android:layout_height="51dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="484dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="536dp"
         android:text="Fearful, overly trusting, sad, desire to escape reality, can be a victim or a martyr"
         android:textColor="#000000"
         app:layout_constraintStart_toEndOf="@+id/textView9"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView15"
+        android:layout_width="264dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="652dp"
+        android:text="Know-it-all, being criticized, the past coming back to haunt, cruelty of any kind"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="548dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="600dp"
         android:text="Likes:"
         android:textColor="#000000"
         android:textSize="18sp"
@@ -131,35 +155,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
-        android:layout_width="264dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="424dp"
-        android:text="Compassionate, artistic, intuitive, gentle, wise, musical"
-        android:textColor="#000000"
-        app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="600dp"
-        android:text="Dislikes:"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView6"
-        android:layout_width="360dp"
-        android:layout_height="156dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="244dp"
+        android:layout_width="344dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="272dp"
         android:fontFamily="casual"
         android:text="Pisces are very friendly, so they often find themselves in a company of very different people. Pisces are selfless, they are always willing to help others, without hoping to get anything back. Pisces is a Water sign and as such this zodiac sign is characterized by empathy and expressed emotional capacity."
         android:textAlignment="center"
